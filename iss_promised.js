@@ -1,7 +1,7 @@
 const request = require('request-promise-native');
 
 const fetchMyIP = function() {
-  return request("httprmatjsonp&");
+  return request("https://api.ipify.org?formatjsonp&");
 };
 
 const fetchCoordsByIP = function(body) {
